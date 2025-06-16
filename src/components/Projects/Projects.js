@@ -33,14 +33,11 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCard></ProjectCard>
               imgPath={bitsOfCode}
               isBlog={false}
               title="Bloom_care_+"
-              description="Our team blog page.we didn't finish it yet but we are working on it. It is a blog page where you can find articles related to technology, programming, and more. The website is built using React.js and Firebase for the backend."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
+
           </Col>
         </Row>
       </Container>
